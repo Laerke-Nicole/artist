@@ -1,4 +1,9 @@
 .navbar {
-    background-color: rgba(255, 255, 255, 90%);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 100;
+    background-color: rgba(21, 15, 58, 97%);
+    &__links {
+        a {
+            padding: 10px;
+        }
+    }
 }

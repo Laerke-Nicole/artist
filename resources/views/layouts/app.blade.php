@@ -8,13 +8,13 @@
 </head>
 <body>
 
-<div id="app">
-    <header>
-        @include('components.sections.navigation')
-    </header>
+<header>
+    @include('components.sections.navigation')
+</header>
 
+<div id="app">
     <main>
-        <section class="container-fluid">
+        <section>
             @yield('content')
         </section>
     </main>

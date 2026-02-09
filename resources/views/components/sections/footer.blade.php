@@ -1,5 +1,5 @@
 <footer class="bg-success py-5">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row gy-4">
             <div class="col-lg-4">
                 <div class="mb-4">

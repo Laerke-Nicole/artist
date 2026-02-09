@@ -14,7 +14,7 @@ export const initMmenu = () => {
             title: "Billie Eilish",
         },
         "offCanvas": {
-            "position": "right"
+            "position": "right",
         },
         "theme": "black",
         "navbars": [
