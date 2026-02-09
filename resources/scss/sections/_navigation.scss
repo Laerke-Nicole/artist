@@ -1,9 +1,19 @@
 .navbar {
     z-index: 100;
-    background-color: rgba(21, 15, 58, 97%);
+    background-color: transparent;
+
+    transition:
+        background-color 0.35s ease,
+        box-shadow 0.35s ease,
+        padding 0.35s ease;
     &__links {
         a {
             padding: 10px;
         }
     }
+}
+
+.navbar__bg {
+    transition: 0.2s;
+    background-color: rgba(21, 15, 58, 97%);
 }

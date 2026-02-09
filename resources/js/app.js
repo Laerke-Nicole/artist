@@ -8,6 +8,8 @@ import 'swiper/css/pagination';
 import * as bootstrap from 'bootstrap';
 import { initMmenu } from './global/mmenu';
 import { initSwiperDiscography } from './plugins/swiper/discography';
+import { initNavigation } from './global/navigation';
 
 initMmenu();
 initSwiperDiscography();
+initNavigation();
