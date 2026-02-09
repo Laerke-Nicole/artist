@@ -1,0 +1,89 @@
+// ----- Colors -----
+$primary: #0D072C;
+$secondary: #FF9500;
+$light: #eeeeee;
+$dark: #1e1e1e;
+$success: #150F3A;
+
+$body-color: #a7a7a7;
+$headings-color: #eeeeee;
+$body-bg: #0D072C;
+$body-secondary-bg: #eeeeee;
+$border-color: #eeeeee;
+$link-color: #eeeeee;
+$link-hover-color: #FF9500;
+
+// ----- Typography -----
+$font-family-sans-serif: "Inter", "Arial", "sans-serif";
+$font-size-base: 0.9rem;
+$line-height-base: 1.4;
+$headings-line-height: 1.2;
+$font-weight-base: 400;
+$headings-font-weight: 600;
+$headings-letter-spacing: -0.07em;
+$h1-font-size: 3rem;
+$h2-font-size: 2.25rem;
+$h3-font-size: 1.6rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1rem;
+$h6-font-size: 0.7rem;
+
+$font-sizes: (
+    1: 1.25rem,
+    2: 1.125rem,
+    3: 1rem,
+    4: 0.9375rem,
+    5: 0.875rem,
+    6: 0.625rem
+);
+
+$enable-responsive-font-sizes: true;
+
+// ----- Buttons -----
+// normal btn
+$input-btn-padding-y: 0.7rem;
+$input-btn-padding-x: 1.0rem;
+$input-btn-font-size: 0.9rem;
+//small btn
+$input-btn-padding-y-sm: 0.4rem;
+$input-btn-padding-x-sm: 0.8rem;
+$input-btn-font-size-sm: 0.85rem;
+$btn-border-radius-sm: 0rem;
+$input-btn-line-height: 91%;
+$btn-border-width: 1px;
+$btn-border-radius: 0rem;
+$btn-font-weight: 400;
+$link-decoration: none;
+
+// ----- Forms -----
+$form-label-font-size: 0.8rem;
+$form-label-font-weight: $font-weight-base;
+$form-label-color: $headings-color;
+
+$input-padding-y: 0.6rem;
+$input-padding-x: 1rem;
+$input-font-size: 0.9rem;
+$input-line-height: 1.4;
+$input-placeholder-color: #BEBEBE;
+$input-border-radius: 0rem;
+
+// ----- Dropdowns -----
+$dropdown-item-padding-y: 0.5rem;
+$dropdown-link-hover-bg: #ededed;
+$dropdown-bg: #fff;
+$dropdown-min-width: 15rem;
+
+// ----- Grid & Containers -----
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px);
+
+// ----- Bootstrap Icons -----
+$bootstrap-icons-font-dir: "/fonts";
+
+// ----- Pagination -----
+$pagination-border-radius: 0rem;
