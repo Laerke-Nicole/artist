@@ -11,3 +11,8 @@ Breadcrumbs::for('about', function (BreadcrumbTrail $trail) {
     $trail->parent('home');
     $trail->push('About', route('about'));
 });
+
+Breadcrumbs::for('discography', function (BreadcrumbTrail $trail) {
+    $trail->parent('home');
+    $trail->push('Discography', route('discography'));
+});

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DiscographyController;
 use App\Http\Controllers\AboutController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,4 +19,5 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::get('discography', [DiscographyController::class, 'discography'])->name('discography');
 Route::get('about', [AboutController::class, 'about'])->name('about');

@@ -21,9 +21,10 @@ export const initMmenu = () => {
             {
                 "position": "bottom",
                 "content": [
-                    "<a class='fa fa-envelope' href='#/'></a>",
-                    "<a class='fa fa-twitter' href='#/'></a>",
-                    "<a class='fa fa-facebook' href='#/'></a>"
+                    "<i class=\"bi bi-facebook text-white fs-1\"></i>",
+                    "<i class=\"bi bi-instagram text-white fs-1\"></i>",
+                    "<i class=\"bi bi-tiktok text-white fs-1\"></i>",
+                    "<i class=\"bi bi-spotify text-white fs-1\"></i>"
                 ]
             }
         ]

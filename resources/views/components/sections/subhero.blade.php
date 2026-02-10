@@ -4,9 +4,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
-                {{ Breadcrumbs::render('about') }}
-                <p class="eyebrow">About</p>
-                <h1 class="mb-4" style="font-size: 50px">Billie Eilish</h1>
+                {{ $slot }}
+{{--                {{ Breadcrumbs::render('about') }}--}}
+                <p class="eyebrow">{{ $eyebrow ?? null }}</p>
+                <h1 class="mb-4" style="font-size: 50px">{{ $title ?? null }}</h1>
+                <p>{{ $content ?? null }}</p>
             </div>
         </div>
     </div>

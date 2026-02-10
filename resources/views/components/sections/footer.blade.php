@@ -14,9 +14,9 @@
             <div class="col-6 col-lg-2 offset-lg-2">
                 <p class="text-uppercase fs-3">Links</p>
                 <ul class="list-unstyled text-uppercase text-light fw-bold d-flex flex-column gap-2" style="letter-spacing: 0.1em;">
-                    <a href=""><li>About</li></a>
+                    <a href="{{ route('about') }}"><li>About</li></a>
                     <a href=""><li>Shop</li></a>
-                    <a href=""><li>Discography</li></a>
+                    <a href="{{ route('discography') }}"><li>Discography</li></a>
                     <a href=""><li>Lyrics</li></a>
                     <a href=""><li>Tour</li></a>
                 </ul>

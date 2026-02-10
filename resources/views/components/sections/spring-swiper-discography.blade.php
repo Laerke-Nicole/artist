@@ -1,4 +1,4 @@
-<div class="section-spacing">
+<div class="container-fluid section-spacing">
     <div class="container mb-5">
         <h2 class="mb-4">Discography</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-4">
