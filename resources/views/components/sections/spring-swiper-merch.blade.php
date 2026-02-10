@@ -4,10 +4,14 @@
             <p class="eyebrow">
                 <i class="bi bi-dash-lg"></i>
                 Billie's newest collection</p>
-            <h2 class="mb-4">Get your merch</h2>
+            <h1 class="mb-4">Get your merch</h1>
             <p class="mb-4">Hit me hard and soft was released Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at libero sodales dolor facilisis semper. In ac sapien elementum, eleifend turpis a, porta mauris.</p>
             <div class="d-flex">
                 <a href="" class="btn btn-outline-light d-block d-lg-none">Shop all</a>
+            </div>
+            <div class="spring-slider-merch-navigation d-flex justify-content-end d-none d-lg-flex">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
 
@@ -69,8 +73,6 @@
                             <p class="fs-3 text-uppercase fw-bold"><span class="text-white">Billie Bandana White Football Jersey</span><br>$80.00</p>
                         </div>
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>

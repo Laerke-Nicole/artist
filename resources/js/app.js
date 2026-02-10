@@ -29,8 +29,8 @@ createSpringSliderDiscography(sliderEl, {
     grabCursor: true,
     loop: true,
     navigation: {
-        prevEl: '.swiper-button-prev',
-        nextEl: '.swiper-button-next',
+        prevEl: sliderEl.querySelector('.swiper-button-prev'),
+        nextEl: sliderEl.querySelector('.swiper-button-next'),
     },
     pagination: {
         el: sliderEl.querySelector('.swiper-pagination'),
@@ -52,6 +52,7 @@ createSpringSliderDiscography(sliderEl, {
 
 // spring swiper merch
 const sliderEl2 = document.querySelector('.spring-slider-merch');
+const merchArrows = document.querySelector('.spring-slider-merch-navigation');
 
 createSpringSliderMerch(sliderEl2, {
     modules: [Navigation, Pagination],
@@ -59,8 +60,8 @@ createSpringSliderMerch(sliderEl2, {
     grabCursor: true,
     loop: true,
     navigation: {
-        prevEl: sliderEl2.querySelector('.swiper-button-prev'),
-        nextEl: sliderEl2.querySelector('.swiper-button-next'),
+        prevEl: merchArrows.querySelector('.swiper-button-prev'),
+        nextEl: merchArrows.querySelector('.swiper-button-next'),
     },
     pagination: {
         el: sliderEl2.querySelector('.swiper-pagination'),

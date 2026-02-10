@@ -32,8 +32,19 @@
             </div>
             <div class="col-lg-2">
                 <p class="text-uppercase fs-3">Socials</p>
-                <div class="d-flex align-items-center gap-2">
-                    <img src="" alt="">
+                <div class="d-flex align-items-center gap-3">
+                    <a href="">
+                        <i class="bi bi-facebook link-secondary fs-1"></i>
+                    </a>
+                    <a href="">
+                        <i class="bi bi-instagram link-secondary fs-1"></i>
+                    </a>
+                    <a href="">
+                        <i class="bi bi-tiktok link-secondary fs-1"></i>
+                    </a>
+                    <a href="">
+                        <i class="bi bi-spotify link-secondary fs-1"></i>
+                    </a>
                 </div>
             </div>
 

@@ -5,7 +5,7 @@
         </div>
 
         <div class="d-none d-lg-block navbar__links">
-            <a href="">About</a>
+            <a href="{{ route('about') }}">About</a>
             <a href="">Shop</a>
             <i class="bi bi-dash"></i>
             <a href="">Discography</a>

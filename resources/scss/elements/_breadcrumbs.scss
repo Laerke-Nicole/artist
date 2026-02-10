@@ -1,9 +1,16 @@
 .breadcrumb {
-    @extend .ls-2;
-    @extend .text-uppercase;
+    margin-bottom: 42px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
     font-size: 10px;
-    font-weight: 400;
-    margin-bottom: 26px;
+    font-weight: bold;
+
+    &-item {
+        font-size: 11px;
+        a {
+            font-size: 11px;
+        }
+    }
 
     .active {
         opacity: 80%;
