@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg py-4 position-fixed w-100">
     <div class="container">
         <div>
-            <a class="navbar-brand text-light" href="#">Home</a>
+            <a href="" class="fs-1">Home</a>
         </div>
 
         <div class="d-none d-lg-block navbar__links">

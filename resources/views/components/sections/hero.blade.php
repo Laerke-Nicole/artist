@@ -8,8 +8,8 @@
             </div>
 
             <div class="col-lg-7 d-flex align-items-end justify-content-end">
-                <div class="row w-100 d-flex justify-content-end">
-                    <div class="col-lg-3">
+                <div class="row w-100 d-flex justify-content-start justify-content-md-end">
+                    <div class="col-6 col-sm-4 col-md-3">
                         <div class="d-flex fs-3 fw-bold text-uppercase">
                             <dt class="me-2">01</dt>
                             <dd class="text-white">Skinny</dd>
@@ -32,7 +32,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-6 col-sm-4 col-md-3">
                         <div class="d-flex fs-3 fw-bold text-uppercase">
                             <dt class="me-2">06</dt>
                             <dd class="text-white">Skinny</dd>

@@ -1,0 +1,45 @@
+.spring-slider-discography {
+    --swiper-navigation-color: #FF9500;
+    --swiper-pagination-color: #FF9500;
+    --swiper-pagination-bullet-inactive-color: #FF9500;
+    width: 100%;
+    height: 320px;
+    position: relative;
+    .swiper-pagination {
+        bottom: 0;
+        margin-bottom: -40px;
+    }
+    .swiper {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .swiper-slide {
+        box-sizing: border-box;
+        padding: 0;
+        img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+        }
+    }
+
+    .swiper-pagination-bullet {
+        border-radius: 0;
+        border: 1px solid $secondary;
+        background: none;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: $secondary;
+    }
+}
+
+.spring-slider-discography {
+    .swiper-slide {
+        transition-timing-function: cubic-bezier(0.76, 0.09, 0.215, 1);
+    }
+}
+

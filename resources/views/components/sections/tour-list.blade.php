@@ -2,7 +2,9 @@
     <div class="section-spacing">
         <div class="mb-5">
             <h2>Upcoming tours</h2>
-            <p>Europe 2026</p>
+            <p>
+                <i class="bi bi-dash-lg"></i>
+                Europe 2026</p>
         </div>
 
         <div class="row border-top border-bottom border-light py-2 d-flex align-items-center">

@@ -3,7 +3,7 @@
         <div class="row gy-4">
             <div class="col-lg-4">
                 <div class="mb-4">
-                    <img src="https://picsum.photos/100/150" alt="">
+                    <img src="{{ asset('storage/logo.png') }}" alt="Logo" class="h-28">
                 </div>
                 <div>
                     <p class="fs-4 fw-bold text-light" style="line-height: 1.2; margin-bottom: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed magna mauris, hendrerit sit amet luctus vel, aliquam iaculis mauris. Mauris in tellus non sapien interdum fringilla.</p>
