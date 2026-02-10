@@ -9,7 +9,7 @@
                 <a href="" class="btn btn-sm btn-outline-light">Collabs</a>
             </div>
             <div>
-                <a href="" class="btn btn-outline-light">Explore full discography</a>
+                <a href="{{ route('discography') }}" class="btn btn-outline-light">Explore full discography</a>
             </div>
         </div>
     </div>
