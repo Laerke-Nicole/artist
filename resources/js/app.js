@@ -9,8 +9,9 @@ import 'swiper/css/pagination';
 import * as bootstrap from 'bootstrap';
 import { initMmenu } from './global/mmenu';
 import { initNavigation } from './global/navigation';
-import createSpringSliderDiscography from './plugins/swiper/spring-swiper-discography';
-import createSpringSliderMerch from './plugins/swiper/spring-swiper-merch';
+import createSpringSliderDiscography from './plugins/swiper/spring-swiper';
+import createSpringSliderMerch from './plugins/swiper/spring-swiper';
+import createSpringSliderShop from './plugins/swiper/spring-swiper';
 
 initMmenu();
 initNavigation();
@@ -68,6 +69,39 @@ if (sliderEl2 && merchArrows) {
         },
         pagination: {
             el: sliderEl2.querySelector('.swiper-pagination'),
+            clickable: true,
+        },
+        breakpoints: {
+            200: {
+                slidesPerView: 1.3,
+            },
+            640: {
+                slidesPerView: 2.3,
+            },
+            1100: {
+                slidesPerView: 2.3,
+            },
+        },
+    });
+}
+
+
+// spring swiper shop list
+const sliderEl3 = document.querySelector('.spring-slider-shop');
+const shopArrows = document.querySelector('.spring-slider-shop-navigation');
+
+if (sliderEl3 && shopArrows) {
+    createSpringSliderShop(sliderEl3, {
+        modules: [Navigation, Pagination],
+        slidesPerView: 1,
+        grabCursor: true,
+        loop: true,
+        navigation: {
+            prevEl: shopArrows.querySelector('.swiper-button-prev'),
+            nextEl: shopArrows.querySelector('.swiper-button-next'),
+        },
+        pagination: {
+            el: sliderEl3.querySelector('.swiper-pagination'),
             clickable: true,
         },
         breakpoints: {

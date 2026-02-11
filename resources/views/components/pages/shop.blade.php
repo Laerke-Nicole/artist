@@ -10,6 +10,8 @@
 
     @include('components.sections.shop-selected-pieces')
 
-    @include('components.sections.shop-item-cards')
+    @include('components.sections.basic-content')
+
+{{--    @include('components.sections.shop-item-cards')--}}
 
 @endsection

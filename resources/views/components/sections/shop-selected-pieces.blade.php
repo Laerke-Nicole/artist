@@ -1,16 +1,15 @@
 <div class="container section-spacing">
     <div class="row">
-        <div class="col-lg-6">
-            <h2 class="mb-4 mb-lg-0">Selected pieces from the collection</h2>
-        </div>
-    </div>
-
-    <div class="row">
         <div class="col-12">
-            <div class="spring-slider-merch">
-                <div class="spring-slider-merch-navigation d-flex justify-content-end mb-3 d-none d-lg-flex">
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+            <div class="spring-slider-shop">
+                <div class="spring-slider-shop-navigation d-flex justify-content-between mb-3 d-none d-lg-flex">
+                    <div>
+                        <h2 class="mb-4 mb-lg-5">Selected pieces from the collection</h2>
+                    </div>
+                    <div class="d-flex flex-row gap-3 align-items-end">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
                 </div>
                 <div class="swiper">
                     <div class="swiper-wrapper">
