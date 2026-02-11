@@ -1,4 +1,4 @@
-<div class="container section-spacing">
+<div class="container-fluid section-spacing">
     <div class="row">
         <div class="col-12">
             <div class="spring-slider-shop">

@@ -1,4 +1,4 @@
-<div class="container-fluid section-spacing">
+<div class="container section-spacing">
     <div class="row gy-4">
         <div class="col-md-6 col-lg-3">
             <a href="">
