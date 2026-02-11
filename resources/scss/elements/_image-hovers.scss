@@ -1,11 +1,26 @@
+.img-hover-scale {
+    overflow: hidden;
+
+    img {
+        transition: transform 0.3s ease;
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    &:hover img {
+        transform: scale(1.05);
+    }
+}
+
 .img-hover-scale-above {
     overflow: visible;
 
     img {
-        transition: none; // default: no hover animation on touch sizes
+        transition: none;
     }
 
-    // default (md and down): text always visible
     &__content {
         opacity: 1;
         transform: translateY(0);
@@ -13,7 +28,6 @@
         pointer-events: none;
     }
 
-    // ONLY enable hover behavior on desktop (lg and up)
     @include media-breakpoint-up(lg) {
         img {
             transition: transform 0.4s ease;

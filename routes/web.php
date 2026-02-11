@@ -1,7 +1,8 @@
 <?php
 
 use App\Http\Controllers\DiscographyController;
-use App\Http\Controllers\AboutController;
+use App\Http\Controllers\LyricController;
+use App\Http\Controllers\ShopController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,4 +21,5 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('discography', [DiscographyController::class, 'discography'])->name('discography');
-Route::get('about', [AboutController::class, 'about'])->name('about');
+Route::get('lyrics', [LyricController::class, 'lyrics'])->name('lyrics');
+Route::get('shop', [ShopController::class, 'shop'])->name('shop');

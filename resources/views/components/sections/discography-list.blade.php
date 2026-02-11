@@ -1,7 +1,7 @@
 <div class="section-spacing">
-    <div class="container mb-5">
+    <div class="container mb-4 mb-lg-5">
         <h2 class="mb-4">Discography</h2>
-        <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-4">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3 gap-lg-4">
             <div class="d-flex gap-2 flex-wrap">
                 <a href="" class="btn btn-sm btn-light">Albums</a>
                 <a href="" class="btn btn-sm btn-outline-light">Eps</a>
@@ -15,7 +15,7 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row g-2">
+        <div class="row g-4 g-lg-2">
             <div class="col-md-6 col-lg-3">
                 <div class="position-relative img-hover-scale-above">
                     <img src="https://picsum.photos/500/500?random=8" alt="" class="w-100">

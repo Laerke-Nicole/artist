@@ -1,5 +1,5 @@
-<div class="container">
-    <div class="row gy-5 section-spacing">
+<div class="container section-spacing">
+    <div class="row gy-4">
         <div class="col-lg-4 d-flex flex-column justify-content-center">
             <p class="eyebrow">
                 <i class="bi bi-dash-lg"></i>
@@ -29,8 +29,8 @@
 </div>
 
 
-<div class="container">
-    <div class="row gy-5 section-spacing">
+<div class="container section-spacing">
+    <div class="row gy-4">
         <div class="col-lg-7">
             <div class="row">
                 <div class="col-6">

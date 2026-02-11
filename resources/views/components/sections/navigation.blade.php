@@ -5,12 +5,11 @@
         </div>
 
         <div class="d-none d-lg-block navbar__links">
-            <a href="{{ route('about') }}">About</a>
-            <a href="">Shop</a>
+            <a href="{{ route('shop') }}">Shop</a>
+            <a href="">Tour</a>
             <i class="bi bi-dash"></i>
             <a href="{{ route('discography') }}">Discography</a>
-            <a href="">Lyrics</a>
-            <a href="">Tour</a>
+            <a href="{{ route('lyrics') }}">Lyrics</a>
         </div>
 
         <div class="d-block d-lg-none">
@@ -22,11 +21,10 @@
 <nav id="menu">
     <ul>
         <li><a href="{{ route('home') }}">Home</a></li>
-        <li><a href="{{ route('about') }}">About</a></li>
-        <li><a href="">Shop</a></li>
-        <li><a href="{{ route('discography') }}">Discography</a></li>
+        <li><a href="{{ route('shop') }}">Shop</a></li>
         <li><a href="">Tour</a></li>
-        <li><a href="">Lyrics</a></li>
+        <li><a href="{{ route('discography') }}">Discography</a></li>
+        <li><a href="{{ route('lyrics') }}">Lyrics</a></li>
         <li><span>About us</span>
             <ul>
                 <li><a href="/about/history">History</a></li>

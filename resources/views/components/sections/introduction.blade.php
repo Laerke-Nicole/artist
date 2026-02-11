@@ -1,7 +1,7 @@
 <div class="container section-spacing">
     <div class="row">
         <div class="col-lg-5">
-            <h1>Testing test</h1>
+            <h1 class="mb-4">Testing test</h1>
         </div>
 
         <div class="col-lg-7">
