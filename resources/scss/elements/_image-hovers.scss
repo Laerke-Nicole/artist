@@ -14,6 +14,15 @@
     }
 }
 
+.hover-rotate {
+    overflow: visible;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: rotate(3deg);
+    }
+}
+
 .img-hover-scale-above {
     overflow: visible;
 
